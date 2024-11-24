@@ -1,4 +1,4 @@
-# NutriofAI - S3 Bucket for frontend Assets
+# NutrifAI - S3 Bucket for frontend Assets
 
 This repository contains the configuration and assets for the S3 bucket used in our web application.
 

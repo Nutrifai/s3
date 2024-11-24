@@ -14,3 +14,10 @@ terraform {
 }
 
 data "aws_caller_identity" "current" {}
+
+module "s3_bucket" {
+  source = "./bucket"
+  bucket_name = "nutrifai-profile-pic"
+  environment = "dev"
+  cloudfront_distribution_id = "ENQLFYICNA72P"
+}
